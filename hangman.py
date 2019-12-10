@@ -138,6 +138,7 @@ def main(): #this is the sequence in which the game will run in
                 player2wordbank.append(gameWord)
                 print("Player 1's Word Bank: " + str(player1wordbank))
                 print("Player 2's Word Bank: " + str(player2wordbank))
+                print("It is now player 1's turn.")
         guesser = not guesser  #this allows the players to switch roles between guessing and giving the word
         correctletters = ""  # resets the correct letters for player 2
         incorrectletters = ""  # resets the correct letters for player 1
