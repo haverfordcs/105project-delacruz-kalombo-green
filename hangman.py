@@ -1,4 +1,3 @@
-
 import re
 
 
@@ -20,7 +19,7 @@ HANGMANVISUALS= ["""
         """, """
         _______
         |     |
-        |     O
+        |     Ofile:/Users/marisleysisdelacruz/PycharmProjects/105project-delacruz-kalombo-green/hangman.py
         |     
         |
         |
