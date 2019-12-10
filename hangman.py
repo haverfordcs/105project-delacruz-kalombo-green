@@ -3,9 +3,6 @@ import re
 
 # Introduction to the Game
 
-#code for if they put more than three words
-
-
 HANGMANVISUALS= ["""
         _______
         |     |
@@ -19,7 +16,7 @@ HANGMANVISUALS= ["""
         """, """
         _______
         |     |
-        |     Ofile:/Users/marisleysisdelacruz/PycharmProjects/105project-delacruz-kalombo-green/hangman.py
+        |     O
         |     
         |
         |
@@ -245,6 +242,7 @@ def lostRound(input_word):
     print("The phrase was: ")
     for i in input_word:  # this will print the word given by the wordgiving player
         print(i)
+    print("It is now the other player's turn.")
 
 
 def endGame():  # asks the user if they want to play again, if yes then it restarts if not then the game ends
